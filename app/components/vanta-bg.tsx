@@ -27,7 +27,7 @@ export default function VantaBg(){
             scale: 1.0,
             scaleMobile: 1.0,
             color: 0x2626c8,
-            backgroundColor: 0xf0f0f0,
+            backgroundColor: 0xd9d9d9,
             maxDistance: 18.0,
             spacing: 16.0,
           });
@@ -43,7 +43,7 @@ export default function VantaBg(){
     return(
         <div
         ref={vantaRef}
-        className="absolute top-0 left-0 w-full h-[100vh]"
+        className="absolute top-0 left-0 w-full h-[900px]"
       ></div>
     )
   

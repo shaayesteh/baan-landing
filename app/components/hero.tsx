@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
-import heroImage from '../assets/marketingHeroImage.png'
+// import Image from "next/image";
+// import heroImage from '../assets/marketingHeroImage.png'
 
 export default function Hero(){
     return(
@@ -27,7 +27,7 @@ export default function Hero(){
                     </button>
                   </div>
                 </div>
-                <div className="flex-1">
+                {/* <div className="flex-1">
                   <Image
                     src={heroImage}
                     width={600}
@@ -35,7 +35,7 @@ export default function Hero(){
                     alt="hero image"
                     className="rounded-xl shadow-lg object-cover w-full h-auto"
                   />
-                </div>
+                </div> */}
               </section>
     )
 }
